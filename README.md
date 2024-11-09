@@ -1,4 +1,3 @@
-# Test with Actions 
 
 _Create workflows that enable you to use Continuous Integration (CI) for your projects._
 
@@ -8,7 +7,6 @@ _Great job uploading test reports! :partying_face:_
 
 Take a look at the merge box, you'll notice you can merge this even though the review process hasn't been met.
 
-Protected branches ensure that collaborators on your repository cannot make irrevocable changes to branches. Enabling protected branches also allows you to enable other optional checks and requirements, like required status checks  and required reviews.
 
 ### :keyboard: Activity: Add branch protections
 
@@ -20,8 +18,6 @@ Protected branches ensure that collaborators on your repository cannot make irre
 1. Check **Require status checks to pass before merging**.
 1. Check all build and test jobs that you'd like to see in the newly visible gray box.
 1. Click **Create**.
-   
-1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
 
 ---
 
